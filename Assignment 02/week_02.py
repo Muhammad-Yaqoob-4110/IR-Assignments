@@ -22,7 +22,7 @@ def add_documents_from_directory(directory_path):
     return documents
 
 # documents list with the documents loaded from a directory
-directory_path = "./Documents_02/test"
+directory_path = "./Documents_02"
 documents = add_documents_from_directory(directory_path)
 
 # Step 2: Preprocess the documents
